@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience Life - Make yourself comfortable.">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/check-in-start.css">
+
+    <title>Kimberly Hotel</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <header class="d-lg-none d-md-block">
+        <nav class="navbar navbar-expand-lg bg-white py-3 py-lg-0">
+            <div class="container-fluid d-flex justify-content-between px-0">
+                <a href="index.html" class="navbar-brand height-50px md-height-75px me-lg-5 me-xl-5 ms-3 ms-md-5 ms-lg-4 ms-xl-5">
+                    <img src="img/logo.png" alt="Our Logo" class="h-100">
+                </a>
+                <button class="navbar-toggler bg-pink-1 py-2 px-3 me-3 me-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOneContent" aria-controls="navbarOneContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fa-solid fa-bars text-white"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarOneContent">
+                    <div class="d-flex flex-column flex-lg-row justify-content-between width-100 px-0 mx-0 ps-lg-0 ms-lg-0 ps-xl-5 ms-xl-5">
+                        <ul class="navbar-nav text-grey-4 d-flex flex-column flex-lg-row justify-content-between width-100 lg-width-50 xl-width-45">
+                            <li class="nav-item">
+                                <a class="nav-link fs-nav text-grey-4 fw-500 ms-3 active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-nav text-grey-4 fw-500 ms-3" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-nav text-grey-4 fw-500 ms-3" href="#">Restaurants</a>
+                            </li>
+                        </ul>
+                        <div class="row d-flex flex-column flex-lg-row justify-content-between align-items-center width-100 lg-width-40 xl-width-40 me-lg-5 me-xl-5 m-0">
+                            <a href="#" class="col-12 col-lg-5 lg-bdr-rad-2 primary-btn text-decoration-none text-start text-lg-center text-white fw-500 lg-fw-700 fs-button py-2 ps-3 ps-lg-0 me-0">Log In</a>
+                            <a href="#" class="col-12 col-lg-5 lg-bdr-rad-2 nav-ghost-primary-btn text-decoration-none text-start text-lg-center fs-button py-2 ps-3 ps-lg-0">Sign Up</a>
+                            <div class="col-1 d-none d-lg-block">
+                                <img src="img/notification-on.png" alt="notification" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1 class="d-lg-none d-md-block fs-check-in text-pink fw-700 text-center py-4">Check In</h1>
+    <section id="hero-section" class="hero-section">
+        <div class="container">
+            <div class="hero-logo pt-3 d-lg-block d-md-none d-none">
+                <img src="img/logo.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="check-in ">
+        <div class="container">
+            <h1 class="d-lg-block d-md-none d-none fs-check-in text-pink fw-700 text-center pt-3 pb-5 mb-5">Check In</h1>
+        <p class="fw-700 text-center fs-check-number py-lg-1 pt-md-5 pt-4">Kindly enter Booking Number</p>
+
+        <form action="" id="booking-number">
+            <div class="short-input width-100 lg-width-50 mt-lg-2 py-md-4 py-lg-1 mb-md-4 mb-lg-1  mx-auto position-relative">
+                <input type="text" name="Booking number" id="booking-input" class=" bg-neutral-4 width-100 bdr-rad-1 fs-form-input py-3 px-3 mt-1 text-black" placeholder="1234567890" style="border: 2px solid #333333;">
+            </div>
+            <div class="d-flex mt-lg-3 mt-md-4 mt-5">
+                <button type="submit" disabled class=" checkin-btn primary-btn  text-center fs-caption fw-600 text-pink bdr-width-3 bdr-rad-2  mx-auto my-3">Book Guest</button>
+            </div>
+            <div class="d-flex ">
+                <button type="button" id="go-back" class=" checkback-btn d-lg-none d-md-block  text-center fs-caption fw-600 text-pink bdr-width-3 bdr-rad-2  mx-auto my-3">Go Back</button>
+            </div>
+        </form>
+        </div>
+    </section>
+    
+</body>
+</html>
